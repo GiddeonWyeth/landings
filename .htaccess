@@ -1,0 +1,5 @@
+php_value auto_prepend_file "C:/wamp/www/landings/routing/index.php"
+FallbackResource index.php
+
+#RewriteEngine on
+#RewriteRule ^routing/([a-zA-Z0-9_-]+)$ routing/index.php?rotator=$1
